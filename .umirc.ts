@@ -15,4 +15,5 @@ export default defineConfig({
     },
   ],
   fastRefresh: {},
+  title: 'Can maker'
 });

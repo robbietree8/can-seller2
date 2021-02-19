@@ -9,7 +9,7 @@ export default function ProductPage() {
       <Image src="/image/product/p-0.jpg" preview={false} />
       <Row justify="center" align="top" gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
         {products.map(product => {
-          return <Col className="gutter-row" span={6}>
+          return <Col key={product.id} className="gutter-row" span={6}>
             <Product key={product.id} {...product} />
           </Col>
         })}

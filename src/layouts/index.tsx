@@ -1,6 +1,7 @@
 import { Layout, Menu, Carousel, Divider, Row, Col } from 'antd';
 import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
 
+
 const { Header, Footer, Content } = Layout;
 
 export default (props) => {
@@ -12,14 +13,14 @@ export default (props) => {
             HOME
           </a>
         </Menu.Item>
-        <Menu.Item key="contact" icon={<MailOutlined />}>
-          <a href="/contact" target="_self" rel="noopener noreferrer">
-            CONTACT US
-          </a>
-        </Menu.Item>
         <Menu.Item key="product" icon={<MailOutlined />}>
           <a href="/product" target="_self" rel="noopener noreferrer">
             PRODUCTS
+          </a>
+        </Menu.Item>
+        <Menu.Item key="contact" icon={<MailOutlined />}>
+          <a href="/contact" target="_self" rel="noopener noreferrer">
+            CONTACT US
           </a>
         </Menu.Item>
       </Menu>
@@ -27,6 +28,8 @@ export default (props) => {
     <Content>
       {props.children}
     </Content>
-    <Footer style={{ textAlign: 'center' }}>Copyright@2021 x-man Copyright Reserved</Footer>
+    <Footer style={{ textAlign: 'center' }}>
+      Copyright@2021 x-man Copyright Reserved
+    </Footer>
   </Layout>;
 }

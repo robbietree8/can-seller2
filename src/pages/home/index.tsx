@@ -31,7 +31,7 @@ export default function IndexPage() {
       <Divider>Products Cover Almost Full Series of Metal Packaging Machine</Divider>
       <Row justify="center" align="top" gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
         {homeProducts.map(product => {
-          return <Col className="gutter-row" span={6}>
+          return <Col key={product.id} className="gutter-row" span={6}>
             <Product key={product.id} {...product} />
           </Col>
         })}

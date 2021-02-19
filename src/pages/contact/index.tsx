@@ -8,7 +8,25 @@ export default function ContactPage() {
       </Divider>
       <Row gutter={16}>
         <Col span={8}>
-          <Card title="Sales">
+          <Card title="Sales1">
+            <p>Bruce Li</p>
+            <p>Phone:</p>
+            <p>+ 65 1234 5678</p>
+            <p>E-mail：</p>
+            <p>info@www.com</p>
+          </Card>
+        </Col>
+        <Col span={8}>
+          <Card title="Sales2">
+            <p>Bruce Li</p>
+            <p>Phone:</p>
+            <p>+ 65 1234 5678</p>
+            <p>E-mail：</p>
+            <p>info@www.com</p>
+          </Card>
+        </Col>
+        <Col span={8}>
+          <Card title="Sales3">
             <p>Bruce Li</p>
             <p>Phone:</p>
             <p>+ 65 1234 5678</p>
