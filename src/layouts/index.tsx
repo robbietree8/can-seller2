@@ -1,7 +1,6 @@
 import { Layout, Menu, Carousel, Divider, Row, Col } from 'antd';
 import { MailOutlined, AppstoreOutlined, SettingOutlined } from '@ant-design/icons';
 
-
 const { Header, Footer, Content } = Layout;
 
 export default (props) => {
