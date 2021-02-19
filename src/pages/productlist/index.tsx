@@ -6,7 +6,7 @@ import { Row, Col, Divider } from 'antd';
 export default function ProductPage() {
   return (
     <div>
-      <Row gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
+      <Row justify="center" align="top" gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}>
         {products.map(product => {
           return <Col className="gutter-row" span={6}>
             <Product key={product.id} {...product} />
