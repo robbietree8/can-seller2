@@ -28,6 +28,26 @@ const products = [
     id: 6,
     name: "test456",
     image: "/image/product/p-1.jpg"
+  },
+  {
+    id: 7,
+    name: "test456",
+    image: "/image/product/p-1.jpg"
+  },
+  {
+    id: 8,
+    name: "test456",
+    image: "/image/product/p-1.jpg"
+  },
+  {
+    id: 9,
+    name: "test456",
+    image: "/image/product/p-1.jpg"
+  },
+  {
+    id: 10,
+    name: "test456",
+    image: "/image/product/p-1.jpg"
   }
 ]
 
