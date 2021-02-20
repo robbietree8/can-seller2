@@ -11,6 +11,7 @@ export default defineConfig({
         { path: '/', component: '@/pages/home/index' },
         { path: '/contact', component: '@/pages/contact/index' },
         { path: '/product', component: '@/pages/productlist/index' },
+        { path: '/product-detail', component: '@/pages/productdetail/index' },
       ]
     },
   ],

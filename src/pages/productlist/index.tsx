@@ -11,7 +11,9 @@ export default function ProductPage() {
         gutter={[{ xs: 8, sm: 16, md: 24, lg: 32 }, { xs: 8, sm: 16, md: 24, lg: 32 }]}>
         {products.map(product => {
           return <Col key={product.id} className="gutter-row" span={6}>
-            <Product key={product.id} {...product} />
+            <a href={'/product-detail?id='+product.id}>
+              <Product key={product.id} {...product} />
+            </a>
           </Col>
         })}
       </Row>
