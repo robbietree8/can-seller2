@@ -19,13 +19,13 @@ export default function IndexPage() {
     <>
       <Carousel autoplay>
         <div>
-          <img src="https://i.loli.net/2021/02/19/kXy5tNDWluVAPEp.jpg" />
+          <img src="https://can-maker.oss-cn-hangzhou.aliyuncs.com/h-1.jpg" />
         </div>
         <div>
-          <img src="https://i.loli.net/2021/02/19/kXy5tNDWluVAPEp.jpg" />
+          <img src="https://can-maker.oss-cn-hangzhou.aliyuncs.com/h-1.jpg" />
         </div>
         <div>
-          <img src="https://i.loli.net/2021/02/19/kXy5tNDWluVAPEp.jpg" />
+          <img src="https://can-maker.oss-cn-hangzhou.aliyuncs.com/h-1.jpg" />
         </div>
       </Carousel>
       <Divider>Products Cover Almost Full Series of Metal Packaging Machine</Divider>
