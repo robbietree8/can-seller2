@@ -6,7 +6,7 @@ import { Row, Col, Divider, Image } from 'antd';
 export default function ProductPage() {
   return (
     <div>
-      <Image src="/image/product/p-0.jpg" preview={false} />
+      <Image src="https://can-maker.oss-cn-hangzhou.aliyuncs.com/p-0.jpg" preview={false} />
       <Row justify="start" align="top"
         gutter={[{ xs: 8, sm: 16, md: 24, lg: 32 }, { xs: 8, sm: 16, md: 24, lg: 32 }]}>
         {products.map(product => {
