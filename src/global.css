@@ -2,3 +2,7 @@
 .ant-layout-footer {
   background: #fff;
 }
+
+.ant-menu {
+  width: 600px;
+}

@@ -3,9 +3,9 @@ import { Row, Col, Divider, Card } from 'antd';
 export default function ContactPage() {
   return (
     <div>
-      <Divider orientation="left">
-        Contact Us
-      </Divider>
+      <p style={{fontSize: 24}}>
+        Contact US
+      </p>
       <Row gutter={16}>
         <Col span={8}>
           <Card title="Sales1">
